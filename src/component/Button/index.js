@@ -3,20 +3,22 @@ import styles from './Button.mode.scss';
 import { Link } from "react-router-dom";
 const cx = classNames.bind(styles);
 //to:linh nội bộ thì dùng react-router-dom
-function Button({ 
+function Button({
     to,
-     href,
-      primary,
-       outline=false,
-       small=false,
-       disabled=false,
-       large=false,
-       children,
-       rounded=false,
-       text,
-        onClick }) {
+    href,
+    primary,
+    outline = false,
+    small = false,
+    disabled = false,
+    large = false,
+    children,
+    rounded = false,
+    text,
+    className,
+    onClick }) {
     let Comp = 'button';
     const classes = cx('wrapper', {
+        className,
         primary,
         outline,
         small,
