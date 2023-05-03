@@ -98,4 +98,15 @@ width:361px;
             font-weight:600;
         }
     }
+    .btn-more{
+        border: none;
+        font-size: 2rem;
+        margin-left: 28px;
+        padding:4px 8px;
+        background-color: transparent;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+ 
 }

@@ -1,0 +1,26 @@
+.menu-list{
+        width: 224px;
+       
+       }
+   .menu-poper{
+    padding-bottom:8px;
+    
+   }
+   .menu-item{
+    button{
+        width:100%;
+        display:flex;
+        justify-content:center;
+        border-radius:0;
+       }
+   }
+  
+   .menu-item:hover button{
+    background:rgba(22,24,35,0.03);
+     cursor:pointer;
+   }
+   .menu-item:hover a{
+    background:rgba(22,24,35,0.03);
+   }
+   
+      
