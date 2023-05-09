@@ -1,0 +1,47 @@
+.wrapper {
+    padding: 14px 26px;
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .avatar {
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 100px 0 0;
+        }
+    }
+
+    .body {
+        margin-top: 12px;
+
+        .nickname {
+            font-size: 1.8rem;
+
+            .check {
+                color: #4ddbd6;
+            }
+        }
+
+        .name {
+            font-size: 1.4rem;
+
+        }
+
+        .describe {
+            display: flex;
+        }
+
+        .analytics {
+            font-size: 1.6rem;
+            padding-right: 20px;
+        }
+
+        strong {
+            padding: 0 9px 0 0px;
+        }
+    }
+}
